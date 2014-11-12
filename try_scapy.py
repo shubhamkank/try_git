@@ -8,4 +8,4 @@ def customAction(packet):
     packetCount += 1
     return packet.summary()
 ## Setup sniff, filtering for IP traffic
-sniff(prn=customAction)
+sniff(prn=customAction, count=50)
