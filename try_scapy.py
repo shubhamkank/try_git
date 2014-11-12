@@ -1,4 +1,3 @@
-## Import Scapy module
 from scapy.all import *
 ## Create a Packet Count var
 packetCount = 0
